@@ -1,2 +1,2 @@
-scala2pluntuml
+scala2plantuml
 ================
