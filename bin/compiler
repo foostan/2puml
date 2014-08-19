@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby
+ 
+require 'lib/parser.rb'
+
+# stdin
+while line = STDIN.gets
+  tokens ||= []
+  tokens << line
+end
+
+p Scala2plantumlParser.new.parse(tokens)
