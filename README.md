@@ -1,4 +1,4 @@
-scala2plantuml
+2puml
 ================
 
 Genarate parser.rb
